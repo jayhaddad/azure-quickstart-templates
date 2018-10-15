@@ -54,6 +54,7 @@
     },
     "variables": {
         "vNetName": "dcVnet",
+        "virtualNetworkName": "[variables('vNetName')]",
         "vNetAddressRange": "10.0.0.0/16",
         "adLBFE": "DCFE",
         "adLBBE": "DCBE",
@@ -112,7 +113,7 @@
                     "contentVersion": "1.0.0.0",
                     "parameters": {
                         "virtualNetworkName": {
-                            "value": "[variables('vNetName')]"
+                            "value": "[variables('virtualNetworkName')]"
                         },
                         "virtualNetworkAddressRange": {
                             "value": "[variables('vNetAddressRange')]"
