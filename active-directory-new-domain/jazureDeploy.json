@@ -319,7 +319,7 @@
                 },
                 "parameters":{
                     "virtualNetworkName": {
-                        "value": "[variables('vNetName')]"
+                        "value": "[variables('virtualNetworkName')]"
                     },
                     "virtualNetworkAddressRange": {
                         "value": "[variables('vNetAddressRange')]"
