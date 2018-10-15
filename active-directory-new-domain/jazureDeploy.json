@@ -111,7 +111,7 @@
                     "uri": "[concat(parameters('_artifactsLocation'),'/nestedtemplates/jvnet.json', parameters('_artifactsLocationSasToken'))]",
                     "contentVersion": "1.0.0.0",
                     "parameters": {
-                        "virtualNetworkNameparameterName": {
+                        "virtualNetworkName": {
                             "value": "[variables('vNetName')]"
                         },
                         "virtualNetworkAddressRange": {
