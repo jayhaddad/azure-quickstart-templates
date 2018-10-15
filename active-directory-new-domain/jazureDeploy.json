@@ -305,6 +305,7 @@
             ]
         },
         {
+            "condition":false,
             "type": "Microsoft.Resources/deployments",
             "name": "UpdateVnetDNS",
             "apiVersion": "2016-02-01",
